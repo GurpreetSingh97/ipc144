@@ -1,0 +1,6 @@
+The iteration construct used in temps.c in workshop3 are "for" loop and "while". However, there are 3 iteration construct,
+in C, the "for" loop, "while" loop and the "do-while" loop. In "while" loop the condition is checked before the execution of the code
+written inside the loop. On the Other hand, in "do-while" the condition is checked at the end, after the execution of the code
+written inside the loop. Moreover, "do-while" loop runs atleast one time unlike "while" loop.The "if", "else if" and "else" loop are known
+as conditional expression. The code inside them, executes if their condition is true.If the condition of both "if" and "else if"
+is incorrect then the "else" conditions executes.  

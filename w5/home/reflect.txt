@@ -1,0 +1,8 @@
+While dealing with related data, it is better to use a struct array as compared
+to parallel array because if we use parallel array we need to create numerous
+arrays, which is a time consuming ask and not efficent too. While, if we use
+struct array we need to create just a single array, which have the tendency
+to store, more than one data in the same box, making it efficent.
+The preferred method of declaring a struct data type is in header file because
+by doing this our code get stored in more than one file. While we compile more
+than one file, the code int the header get copied to all the files, which allow us to edit or modify it at the same spot.

@@ -1,0 +1,14 @@
+If we don't use an array, we have to declare 10 different variables and it will take too 
+much time. However, in case of an array, we have to just declare a single array to store
+multiple values.
+
+The advantages of using matching array are:-
+1.It can be used to store multiple data of same data type by using just a single name.
+2.We ca access any variable easily if we now its index number.
+The disadvantages of using matching array are:-
+1.We need to know the size of an array in advance.
+2.The elements in an array are stored in a consecutive manner.Therefore insertion and
+deletion of elements is difficult.
+
+The home portion of workshop was easy. As there was not much of thinking part. However, we 
+had to do too many things just in a single code, which made it a little bit confusing.

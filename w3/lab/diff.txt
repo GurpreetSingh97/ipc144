@@ -1,0 +1,10 @@
+
+In line number 12 of your output:
+The output should be:
+Incorrect values, temperatures must be in the range -40 to 40, high must be greater than low.
+But your output is: 
+Incorrect values, temperatures must be in range -40 to 40, high must be greater than low.
+                                          ^
+------------------------------------------|
+Professor's character ASCII code: hex(74), dec(116)
+un-matched character ASCII code: hex(72), dec(114)

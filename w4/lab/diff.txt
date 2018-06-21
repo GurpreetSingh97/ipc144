@@ -1,0 +1,10 @@
+
+In line number 6 of your output:
+The output should be:
+Invalid entry, please enter a number between 3 and 10, inclusive: 4
+But your output is: 
+Invalid entry, please enter a number between 3 and 10, incluisive: 4
+                                                            ^
+------------------------------------------------------------|
+Professor's character ASCII code: hex(73), dec(115)
+un-matched character ASCII code: hex(69), dec(105)
