@@ -1,0 +1,4 @@
+From this workshop I learnt many useful things such as using division and modulas operations in an effective manner.
+While calculating the GST we must add 0.005 to value derived,so that we can round of it to the nearest 2 digit decimal place
+number. With the help of casting we can convert a variable from one data type to another data type.The modulas 
+helps in finding the remainder, in this particular code it was used to find the balance.

@@ -1,0 +1,40 @@
+#include<stdio.h>
+
+int main(void){
+
+	double amount;
+	printf("Please enter the amount to be paid: $");
+	scanf("%lf",&amount);
+
+	double GST = amount * 0.13 + 0.005;
+	printf("GST: %0.2lf\n",GST);
+
+	double total_amount = GST + amount;
+	printf("Balance owing: $%0.2lf\n",total_amount);
+
+	int loonies = total_amount/1;       
+	double new_amount1 = total_amount - loonies;
+
+	int new_amount2 = new_amount1 * 100;
+
+	int quarters = new_amount2/25;
+	int quarters_remainder = new_amount2%25;
+
+	int dimes = quarters_remainder/10;
+	int dimes_remainder = quarters_remainder%10;
+
+	int nickles = dimes_remainder/5;
+	int nickles_remainder = dimes_remainder%5;
+
+	int pennis = nickles_remainder/1;
+	int final_balance = nickles_remainder%1;
+	
+
+	printf("Loonies required: %d, balance owing $%.2lf\n",loonies , new_amount1);
+	printf("Quarters required: %d, balance owing $%.2lf\n",quarters ,(float) quarters_remainder/100);
+	printf("Dimes required: %d, balance owing $%.2lf\n",dimes , (float)dimes_remainder/100);
+	printf("Nickles required: %d, balance owing $%.2lf\n",nickles, (float)nickles_remainder/100);
+	printf("Pennies required: %d, balance owing $%.2lf\n",pennis, (float)final_balance/100);
+
+	return 0;
+}
