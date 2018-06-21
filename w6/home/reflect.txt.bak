@@ -1,0 +1,15 @@
+A function includes a head and a body. The head contains the data type of return's
+value, whereas the body contains the instructions of the task it needs to complete.
+Functions helps in making the modification or editing of a code easy, as one needs
+to make changes in the function only, not in the whole code. Moreover, modularity
+help let multiple people work on a certain code at one.
+
+In rental and rental2 code we create addPositive and subtractPositive functions,
+making them reusable, so we just simply needs to call them whenever we needed them,
+avoiding writing the whole code again.
+
+We can send data to a function by passing the values as argument. The value can be
+of any data type, it can be a single value or multiple values.We can receive the 
+value from function by returning it. We can store this returned value in some variable
+or just simply use it.
+

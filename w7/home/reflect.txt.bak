@@ -1,0 +1,14 @@
+In C language the syntax allows the function to return only a single value.
+Therefore, when we are required to design a function that can return more than
+one value, we pass (receive) values from function through its parameters pointer
+that hold the values of variable that receive the multiple return values.
+
+The term deference means getting the value of a variable whose address is saved
+in the pointer variable.
+Example of deference is :-
+
+	int number =7;       
+	int *pi= &number;
+	printf("%d",*pi);
+ 
+The address of a variable is stored in a pointer variable.

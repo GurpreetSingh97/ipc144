@@ -1,0 +1,14 @@
+The possible return value of readRecord can vary from 0 to 5. The return value 
+represents the number of values scanned by the "scanf" function.
+
+Opening a file in "r" gives the permission to only read from the file. On the 
+other hand opening a file in "w" gives the permission to only write in the file,
+nothing else. Whereas, opening a file in "a+" gives the both permissions, write
+data in the file and read something from the file, and it append data in the file
+rather than overwrite.
+
+First of all, if the required data is too big, it's better to read from a file
+rather than asking the user to enter such a big data.Moreover, if the same data
+is required more than once, we can simply read it from file rather than wasting
+time every time entering the input.
+

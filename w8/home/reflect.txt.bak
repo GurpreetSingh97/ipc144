@@ -1,0 +1,18 @@
+When we pass an array to a function, it is by its address. We provide the address
+of the first element of the array. As all the elements occupy contigious space,
+therefore accessing any element of the array only required its index and address
+of the start of the array.
+Pass by address means we are giving its address, this gives the function, power to
+make changes in the orignal value of the elements. While passing by value means
+copying the elements, and this do not give the power to make changes to the original
+value.
+
+The functions with an array parameter are usually complemented with an additional
+integer parameter because this additional parameter is the size of the array we
+are using, and size of the array is very important to work on it.
+
+We are passing the address of an array, so, through function the value of the
+array can be changed, to avoid this we put "const" with array parameter, now the
+attempt to change its value will give a compiler error.
+we put "const" in that function only where we don't want the array's element to
+be changed, while where we wanted the values to be changed we did'nt put "const".

@@ -1,0 +1,20 @@
+A C-style string is simply an array of characters but with some aditional
+properties. It always ends with a null terminator '\0'. This null terminator
+tells the compiler that a char before it was the end of this string. Whereas,
+an array of char do not have any special character such as null pointer.
+
+
+To ensure that the number of input character read by scanf() do not exceed
+10 bytes of space that we have allocates for string, we use %10[^\n], which
+do not let the scanf to read more than 10 characters.
+
+
+strcmp(const char*, const char*) return negative number when the first non-
+matchin character is before the same indec non-matching number of second string.
+
+
+If we concatenate "Hello" to "C", we need 7 bytes of memory, 5 for storing 
+"Hello", 1 byte for "C" and 1 for null terminator '\0'.
+
+
+

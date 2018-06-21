@@ -1,0 +1,10 @@
+
+In line number 118 of your output:
+The output should be:
+Book 567890 costs $12.67
+But your output is: 
+Book 567890 costs $12.670000
+                        ^
+------------------------|
+Professor's character ASCII code: hex(d), dec(13)
+un-matched character ASCII code: hex(30), dec(48)
