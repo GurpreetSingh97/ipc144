@@ -1,0 +1,4 @@
+From this workshop, I learnt how to create new directories, C files and text
+files and how to submit your assignments.Moreover, I learnt how to indent your
+code to make it clear and easy for others to understand. For me this is a whole
+new experience.
