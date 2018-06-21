@@ -1,0 +1,10 @@
+
+In line number 189 of your output:
+The output should be:
+Quantity is low, please reorder ASAP!!!
+But your output is: 
+Quantity is low; please reorder ASAP!!!
+               ^
+---------------|
+Professor's character ASCII code: hex(2c), dec(44)
+un-matched character ASCII code: hex(3b), dec(59)

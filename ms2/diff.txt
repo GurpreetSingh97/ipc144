@@ -1,0 +1,10 @@
+
+In line number 31 of your output:
+The output should be:
+Yours: |999|Red Apples          |    4.54|   No|  50 |   5 |      227.00|
+But your output is: 
+Yours: |999|Red Apples          |    4.54|  No|  50 |   5 |      227.00|
+                                            ^
+--------------------------------------------|
+Professor's character ASCII code: hex(20), dec(32)
+un-matched character ASCII code: hex(4e), dec(78)

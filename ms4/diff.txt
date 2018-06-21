@@ -1,0 +1,10 @@
+
+In line number 47 of your output:
+The output should be:
+|275|Royal Gala Apples   |    4.40|   No|  10 |   2 |       44.00|
+But your output is: 
+|386|Honeydew Melon      |    5.99|   No|  20 |   4 |      119.80|
+ ^
+-|
+Professor's character ASCII code: hex(32), dec(50)
+un-matched character ASCII code: hex(33), dec(51)
